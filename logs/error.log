@@ -1,0 +1,96 @@
+{ time: [34m20-03-2022 17:45:27[39m level: [31merror[39m message: Invalid value "undefined" for header "X-API-KEY"Invalid value "undefined" for header "X-API-KEY" stack: TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "X-API-KEY"
+    at ClientRequest.setHeader (_http_outgoing.js:561:3)
+    at new ClientRequest (_http_client.js:251:14)
+    at Object.request (https.js:313:10)
+    at RedirectableRequest._performRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\follow-redirects\index.js:279:24)
+    at new RedirectableRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\follow-redirects\index.js:61:8)
+    at Object.request (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\follow-redirects\index.js:487:14)
+    at dispatchHttpRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:242:25)
+    at new Promise (<anonymous>)
+    at httpAdapter (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:48:10)
+    at dispatchRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\dispatchRequest.js:58:10) }
+{ time: [34m20-03-2022 17:47:46[39m level: [31merror[39m message: Invalid value "undefined" for header "X-API-KEY"Invalid value "undefined" for header "X-API-KEY" stack: TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "X-API-KEY"
+    at ClientRequest.setHeader (_http_outgoing.js:561:3)
+    at new ClientRequest (_http_client.js:251:14)
+    at Object.request (https.js:313:10)
+    at RedirectableRequest._performRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\follow-redirects\index.js:279:24)
+    at new RedirectableRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\follow-redirects\index.js:61:8)
+    at Object.request (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\follow-redirects\index.js:487:14)
+    at dispatchHttpRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:242:25)
+    at new Promise (<anonymous>)
+    at httpAdapter (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:48:10)
+    at dispatchRequest (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\dispatchRequest.js:58:10) }
+{ time: [34m20-03-2022 18:07:19[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 18:13:58[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 18:15:34[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 18:15:47[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 18:17:55[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 18:18:43[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 18:47:18[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 18:54:57[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 19:15:45[39m level: [31merror[39m message: Request failed with status code 401Request failed with status code 401 stack: Error: Request failed with status code 401
+    at createError (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\axios\lib\adapters\http.js:322:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) }
+{ time: [34m20-03-2022 19:22:32[39m level: [31merror[39m message: sendText is not definedsendText is not defined stack: ReferenceError: sendText is not defined
+    at exports.generateOtp (C:\CREDITCLAN\web_hook\all-endpoint\controllers\otp.controller.js:72:3)
+    at C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\route.js:112:3)
+    at C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:275:10) }

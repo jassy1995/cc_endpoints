@@ -1,68 +1,9 @@
 require("dotenv").config();
-// const api_keys = process.env.API_KEY;
-const { MESSENGER_TOKEN, api_keys } = process.env;
+const { API_KEY } = process.env;
 const axios = require("axios");
 const winston = require("../loggers");
-
+const sendText = require("../util/messages/direct-message");
 const validateNumber = require("../validator/otp/otp-validator");
-
-function sendText(text, provider, channelId, phone) {
-  let url;
-  let head;
-  let body;
-
-  if (provider == "web") {
-    url = "https://bnpl-chatbot-server.herokuapp.com/direct";
-
-    head = {
-      Authorization: `Bearer ${MESSENGER_TOKEN}`,
-    };
-    body = {
-      phone: "234" + phone.substr(-10).replace(" ", ""),
-      message: text,
-    };
-  } else if (provider == "messengerpeople") {
-    url = "https://api.messengerpeople.dev/messages";
-
-    head = {
-      Authorization: `Bearer ${MESSENGER_TOKEN}`,
-    };
-    body = {
-      recipient: "234" + phone.substr(-10).replace(" ", ""),
-      sender: channelId,
-      payload: {
-        type: "text",
-        text: text,
-      },
-    };
-  } else if (provider == "messagebird") {
-    url = "https://conversations.messagebird.com/v1/send";
-
-    head = {
-      Authorization: `${MESSENGEBIRD_TOKEN}`,
-    };
-    body = {
-      to: "+234" + phone.substr(-10).replace(" ", ""),
-      from: channelId,
-      type: "text",
-      content: {
-        text: text,
-        disableUrlPreview: false,
-      },
-    };
-  }
-
-  return new Promise((resolve) => {
-    axios
-      .post(url, body, { headers: head })
-      .then(async (response) => {
-        resolve(response.data);
-      })
-      .catch((err) => {
-        return "error";
-      });
-  });
-}
 
 exports.generateOtp = async (req, res, next) => {
   const { error, value } = validateNumber(req.body);
@@ -71,12 +12,18 @@ exports.generateOtp = async (req, res, next) => {
   }
 
   const { provider, channelId, phone } = req.body;
-  sendText("please wait while generating your otp", provider, channelId, phone);
+  await sendText(
+    "please wait while generating your otp",
+    provider,
+    channelId,
+    phone
+  );
+
   let config = {
     method: "post",
     url: "https://mobile.creditclan.com/api/v3/lender/generate/otp",
     headers: {
-      "X-API-KEY": api_keys,
+      "X-API-KEY": API_KEY,
       "Content-Type": "application/json",
     },
     data: { phone: phone },
