@@ -6,9 +6,7 @@ const winston = require("../loggers");
 
 const validateNumber = require("../validator/otp/otp-validator");
 
-function sendText(phoneNumber, provider, channelId, phone) {
-  if (provider === "web") return;
-
+function sendText(text, provider, channelId, phone) {
   let url;
   let head;
   let body;
@@ -21,7 +19,7 @@ function sendText(phoneNumber, provider, channelId, phone) {
     };
     body = {
       phone: "234" + phone.substr(-10).replace(" ", ""),
-      message: "please wait while generating your otp",
+      message: text,
     };
   } else if (provider == "messengerpeople") {
     url = "https://api.messengerpeople.dev/messages";
@@ -34,7 +32,7 @@ function sendText(phoneNumber, provider, channelId, phone) {
       sender: channelId,
       payload: {
         type: "text",
-        text: "please wait while generating your otp",
+        text: text,
       },
     };
   } else if (provider == "messagebird") {
@@ -48,7 +46,7 @@ function sendText(phoneNumber, provider, channelId, phone) {
       from: channelId,
       type: "text",
       content: {
-        text: "please wait while generating your otp",
+        text: text,
         disableUrlPreview: false,
       },
     };
@@ -72,8 +70,8 @@ exports.generateOtp = async (req, res, next) => {
     return res.status(400).json({ message: error.details[0].message });
   }
 
-  const { phoneNumber, provider, channelId, phone } = req.body;
-  sendText(phoneNumber, provider, channelId, phone);
+  const { provider, channelId, phone } = req.body;
+  sendText("please wait while generating your otp", provider, channelId, phone);
   let config = {
     method: "post",
     url: "https://mobile.creditclan.com/api/v3/lender/generate/otp",
