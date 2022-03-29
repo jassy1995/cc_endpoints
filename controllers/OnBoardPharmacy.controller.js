@@ -83,6 +83,8 @@ exports.RegisterPharmacy = async (req, res) => {
     let attendants = [];
     let attendant = { name: response };
     attendants.push(attendant);
+    console.log(attendants);
+    console.log(attendant);
 
     await query.updatePharmacyProcess(
       {
