@@ -124,7 +124,7 @@ exports.RegisterPharmacy = async (req, res) => {
   if (info.stage === 1 && info.step === 7) {
     await query.updatePharmacyProcess(
       {
-        image: response,
+        bank_detail: response,
         step: info.step + 1,
       },
       phone
