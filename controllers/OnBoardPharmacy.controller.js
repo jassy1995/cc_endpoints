@@ -81,7 +81,7 @@ exports.RegisterPharmacy = async (req, res) => {
   }
   if (info.stage === 1 && info.step === 4) {
     let attendants = [];
-    let attendant = { name: response };
+    let attendant = { id: attendants.length + 1, name: response };
     attendants.push(attendant);
     console.log(attendants);
     console.log(attendant);
@@ -90,7 +90,7 @@ exports.RegisterPharmacy = async (req, res) => {
       {
         attendant: JSON.stringify(attendants),
         step: info.step + 1,
-        attendantIndex: 0,
+        attendantIndex: info.attendantIndex === null ? 0 : info.attendantIndex,
       },
       phone
     );
@@ -103,12 +103,12 @@ exports.RegisterPharmacy = async (req, res) => {
     let attendant = JSON.parse(info.attendant)[info.attendantIndex];
     let attendants = JSON.parse(info.attendant);
     let insert_phone = { ...attendant, ...attendant_phone };
-    let pushUpdated = attendants.push(insert_phone);
+    attendants[info.attendantIndex] = insert_phone;
     console.log(insert_phone);
     console.log(pushUpdated);
     await query.updatePharmacyProcess(
       {
-        attendant: JSON.stringify(pushUpdated),
+        attendant: JSON.stringify(attendants),
         step: info.step + 1,
         attendantIndex: info.attendantIndex + 1,
       },
