@@ -104,7 +104,7 @@ exports.RegisterPharmacy = async (req, res) => {
       {
         attendant: JSON.stringify(pushUpdated),
         step: info.step + 1,
-        attendantIndex: attendantIndex + 1,
+        attendantIndex: info.attendantIndex + 1,
       },
       phone
     );
