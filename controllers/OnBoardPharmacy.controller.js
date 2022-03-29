@@ -17,7 +17,10 @@ exports.RegisterPharmacy = async (req, res) => {
   //      "channelId":"d599d756-7e5c-4514-8cdf-04ab47955b1e"
   //      "phone" : "07035280592"
   // }
-  if (response.toLowerCase() === "register") {
+  if (
+    response.toLowerCase() === "register" ||
+    response.toLowerCase() === "restart"
+  ) {
     await query.createPharmacyProcess({ phone_no: phone, stage: 1, step: 0 });
     return res.json({
       message: `Hello welcome to the registration center, kindly ${questions[0].q}`,
@@ -34,12 +37,11 @@ exports.RegisterPharmacy = async (req, res) => {
   }
   if (info.stage === 1 && info.step === 1) {
     let validateNumber = await verifyPhoneNumber(phone);
-    console.log(`validatePhoneNumber", ${validateNumber}`);
-    // if (isExist?.whatsapp_phone === response) {
-    //   return res.json({
-    //     message: `your whatsapp number is already taken,kindly enter another number`,
-    //   });
-    // }
+    if (isExist?.whatsapp_phone === response) {
+      return res.json({
+        message: `your whatsapp number is already taken,kindly enter another number`,
+      });
+    }
 
     if (validateNumber) {
       await query.updatePharmacyProcess(
@@ -100,6 +102,8 @@ exports.RegisterPharmacy = async (req, res) => {
     let attendants = JSON.parse(info.attendant);
     let insert_phone = { ...attendant, ...attendant_phone };
     let pushUpdated = attendants.push(insert_phone);
+    console.log(insert_phone);
+    console.log(pushUpdated);
     await query.updatePharmacyProcess(
       {
         attendant: JSON.stringify(pushUpdated),
@@ -133,7 +137,7 @@ exports.RegisterPharmacy = async (req, res) => {
       phone
     );
     return res.json({
-      message: `your registration is successful`,
+      message: `your registration is successful,kindly enter *restart* for a new  registration`,
     });
   }
 };
