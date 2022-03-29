@@ -3,6 +3,6 @@ let controller = require("../controllers/test.controller");
 
 const router = express.Router();
 
-router.post("/test", controller.TestFunction);
+router.post("/register-pharmacy", controller.RegisterPharmacy);
 
 module.exports = router;

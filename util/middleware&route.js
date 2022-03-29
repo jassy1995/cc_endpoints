@@ -2,7 +2,7 @@ require("express-async-errors");
 const express = require("express");
 const cors = require("cors");
 const otpRoute = require("../routes/otp.route");
-const testRoute = require("../routes/test.route");
+const pharmacyRoute = require("../routes/pharmacy.route");
 const error = require("../middleware/error");
 const helmet = require("helmet");
 const compression = require("compression");

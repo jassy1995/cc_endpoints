@@ -12,15 +12,15 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 });
 
 const Employee = require("./employee.model")(sequelize, DataTypes, Sequelize);
-// const Department = require("./department.model")(
-//   sequelize,
-//   DataTypes,
-//   Sequelize
-// );
+const Pharmacy = require("./onboard-pharmacy.model")(
+  sequelize,
+  DataTypes,
+  Sequelize
+);
 
 module.exports = {
   Employee,
-  // Department,
+  Pharmacy,
   sequelize,
   Sequelize,
   Op,
