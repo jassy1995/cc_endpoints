@@ -33,7 +33,7 @@ exports.RegisterPharmacy = async (req, res) => {
     });
   }
   if (info.stage === 1 && info.step === 1) {
-    let validateNumber = await query.verifyPhoneNumber(phone);
+    let validateNumber = await verifyPhoneNumber(phone);
     if (isExist?.whatsapp_phone === response) {
       return res.json({
         message: `your whatsapp number is already taken,kindly enter another number`,
