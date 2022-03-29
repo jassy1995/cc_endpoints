@@ -4,12 +4,12 @@ const Employee = (sequelize, DataTypes, Sequelize) =>
   sequelize.define(
     "employee",
     {
-      id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        allowNull: false,
-        autoIncrement: true,
-      },
+      // id: {
+      //   type: DataTypes.INTEGER,
+      //   primaryKey: true,
+      //   allowNull: false,
+      //   autoIncrement: true,
+      // },
       name: {
         type: DataTypes.TEXT,
       },
