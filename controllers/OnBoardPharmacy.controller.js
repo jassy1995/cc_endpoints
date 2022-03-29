@@ -1,7 +1,7 @@
 const { Pharmacy, PharmacyProcess } = require("../models");
 const query = require("../util/query");
 const { questions } = require("../util/others");
-const verifyPhoneNumber = require("nigerian-phone-number-validator");
+const { verifyPhoneNumber } = require("nigerian-phone-number-validator");
 
 exports.RegisterPharmacy = async (req, res) => {
   const { phoneNumber, response, provider, channelId, phone } = req.body;
