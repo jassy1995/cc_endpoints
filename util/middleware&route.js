@@ -2,6 +2,7 @@ require("express-async-errors");
 const express = require("express");
 const cors = require("cors");
 const otpRoute = require("../routes/otp.route");
+const testRoute = require("../routes/test.route");
 const error = require("../middleware/error");
 const helmet = require("helmet");
 const compression = require("compression");
@@ -13,5 +14,6 @@ module.exports = function (app) {
   app.use(express.urlencoded({ extended: true }));
   app.use(express.json());
   app.use("/api/v2", otpRoute);
+  app.use("/api/v2", testRoute);
   app.use(error);
 };

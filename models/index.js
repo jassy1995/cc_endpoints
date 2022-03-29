@@ -11,7 +11,7 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   },
 });
 
-// const Employee = require("./employee.model")(sequelize, DataTypes, Sequelize);
+const Employee = require("./employee.model")(sequelize, DataTypes, Sequelize);
 // const Department = require("./department.model")(
 //   sequelize,
 //   DataTypes,
@@ -19,7 +19,7 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 // );
 
 module.exports = {
-  // Employee,
+  Employee,
   // Department,
   sequelize,
   Sequelize,
