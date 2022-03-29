@@ -5,9 +5,9 @@ const verifyPhoneNumber = require("nigerian-phone-number-validator");
 
 exports.RegisterPharmacy = async (req, res) => {
   const { phoneNumber, response, provider, channelId, phone } = req.body;
-  const pending = await pendingRegistration(phone);
-  const isExist = await existPharmacy(phone);
-  const info = await pharmacyInfo(phone);
+  const pending = await query.pendingRegistration(phone);
+  const isExist = await query.existPharmacy(phone);
+  const info = await query.pharmacyInfo(phone);
   // const validatePhone = (phone) => await verifyPhoneNumber(phone);
 
   //   {
@@ -18,25 +18,28 @@ exports.RegisterPharmacy = async (req, res) => {
   //      "phone" : "07035280592"
   // }
   if (response.toLowerCase() === "register") {
-    await createPharmacyProcess({ phone_no: phone, stage: 1, step: 0 });
+    await query.createPharmacyProcess({ phone_no: phone, stage: 1, step: 0 });
     return res.json({
       message: `Hello welcome to the registration center, kindly ${questions[0].q}`,
     });
   }
   if (info.stage === 1 && info.step === 0) {
-    await updatePharmacyProcess({ name: response, step: info.step + 1 }, phone);
+    await query.updatePharmacyProcess(
+      { name: response, step: info.step + 1 },
+      phone
+    );
     return res.json({
       message: `kindly ${questions[1].q}`,
     });
   }
   if (info.stage === 1 && info.step === 1) {
-    let validateNumber = await verifyPhoneNumber(phone);
+    let validateNumber = await query.verifyPhoneNumber(phone);
     if (isExist?.whatsapp_phone === response) {
       return res.json({
         message: `your whatsapp number is already taken,kindly enter another number`,
       });
     } else if (validateNumber) {
-      await updatePharmacyProcess(
+      await query.updatePharmacyProcess(
         { whatsapp_phone: response, step: info.step + 1 },
         phone
       );
@@ -54,7 +57,7 @@ exports.RegisterPharmacy = async (req, res) => {
     }
   }
   if (info.stage === 1 && info.step === 2) {
-    await updatePharmacyProcess(
+    await query.updatePharmacyProcess(
       { address: response, step: info.step + 1 },
       phone
     );
@@ -63,7 +66,7 @@ exports.RegisterPharmacy = async (req, res) => {
     });
   }
   if (info.stage === 1 && info.step === 3) {
-    await updatePharmacyProcess(
+    await query.updatePharmacyProcess(
       { location: response, step: info.step + 1 },
       phone
     );
@@ -76,7 +79,7 @@ exports.RegisterPharmacy = async (req, res) => {
     let attendant = { name: response };
     attendants.push(attendant);
 
-    await updatePharmacyProcess(
+    await query.updatePharmacyProcess(
       {
         attendant: JSON.stringify(attendants),
         step: info.step + 1,
@@ -94,7 +97,7 @@ exports.RegisterPharmacy = async (req, res) => {
     let attendants = JSON.parse(info.attendant);
     let insert_phone = { ...attendant, ...attendant_phone };
     let pushUpdated = attendants.push(insert_phone);
-    await updatePharmacyProcess(
+    await query.updatePharmacyProcess(
       {
         attendant: JSON.stringify(pushUpdated),
         step: info.step + 1,
@@ -107,7 +110,7 @@ exports.RegisterPharmacy = async (req, res) => {
     });
   }
   if (info.stage === 1 && info.step === 6) {
-    await updatePharmacyProcess(
+    await query.updatePharmacyProcess(
       {
         image: response,
         step: info.step + 1,
@@ -119,7 +122,7 @@ exports.RegisterPharmacy = async (req, res) => {
     });
   }
   if (info.stage === 1 && info.step === 7) {
-    await updatePharmacyProcess(
+    await query.updatePharmacyProcess(
       {
         image: response,
         step: info.step + 1,
