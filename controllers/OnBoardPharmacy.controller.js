@@ -34,11 +34,14 @@ exports.RegisterPharmacy = async (req, res) => {
   }
   if (info.stage === 1 && info.step === 1) {
     let validateNumber = await verifyPhoneNumber(phone);
-    if (isExist?.whatsapp_phone === response) {
-      return res.json({
-        message: `your whatsapp number is already taken,kindly enter another number`,
-      });
-    } else if (validateNumber) {
+    console.log(`validatePhoneNumber", ${validateNumber}`);
+    // if (isExist?.whatsapp_phone === response) {
+    //   return res.json({
+    //     message: `your whatsapp number is already taken,kindly enter another number`,
+    //   });
+    // }
+
+    if (validateNumber) {
       await query.updatePharmacyProcess(
         { whatsapp_phone: response, step: info.step + 1 },
         phone
