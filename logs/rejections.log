@@ -1,0 +1,1530 @@
+{ time: [34m29-03-2022 14:19:37[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:20:10[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:23:16[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:23:36[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:24:52[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:24:56[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:25:34[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:26:21[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:31:16[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:31:48[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:31:57[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:34:57[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:35:02[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:35:30[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:36:27[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:42:37[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:48:15[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:54:29[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:55:07[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 14:58:15[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:00:51[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:02:41[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:06:26[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:08:13[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:11:59[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:12:12[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:13:30[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:14:55[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:25:49[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:30:12[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:31:35[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:42:05[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:43:41[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:48:18[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:48:35[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:49:25[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:50:15[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:52:02[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:52:11[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:53:22[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:53:44[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:55:36[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 15:59:57[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 16:01:01[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/test.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m29-03-2022 16:03:39[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/OneTimePassword.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+Error: Cannot find module '../controllers/OneTimePassword.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/OneTimePassword.controller'
+Require stack:
+- C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js
+- C:\CREDITCLAN\web_hook\all-endpoint\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\pharmacy.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }

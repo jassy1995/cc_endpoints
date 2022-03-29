@@ -27,6 +27,7 @@
     "mongoose": "^6.2.4",
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
+    "nigerian-phone-number-validator": "^1.1.0",
     "sequelize": "^6.17.0",
     "underscore": "^1.13.2",
     "winston": "^3.3.0",

@@ -11,7 +11,11 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   },
 });
 
-const Employee = require("./employee.model")(sequelize, DataTypes, Sequelize);
+const PharmacyProcess = require("./onboard-pharmacy-process.model")(
+  sequelize,
+  DataTypes,
+  Sequelize
+);
 const Pharmacy = require("./onboard-pharmacy.model")(
   sequelize,
   DataTypes,
@@ -19,7 +23,7 @@ const Pharmacy = require("./onboard-pharmacy.model")(
 );
 
 module.exports = {
-  Employee,
+  PharmacyProcess,
   Pharmacy,
   sequelize,
   Sequelize,

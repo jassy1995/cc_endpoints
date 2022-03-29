@@ -14,6 +14,6 @@ module.exports = function (app) {
   app.use(express.urlencoded({ extended: true }));
   app.use(express.json());
   app.use("/api/v2", otpRoute);
-  app.use("/api/v2", testRoute);
+  app.use("/api/v2", pharmacyRoute);
   app.use(error);
 };

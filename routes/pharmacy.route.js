@@ -1,5 +1,5 @@
 const express = require("express");
-let controller = require("../controllers/test.controller");
+let controller = require("../controllers/OnBoardPharmacy.controller");
 
 const router = express.Router();
 

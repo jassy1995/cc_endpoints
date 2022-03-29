@@ -1,8 +1,8 @@
 // const bcrypt = require("bcryptjs");
 
 // const zlib = require("zlib");
-const OnBoardPharmacy = (sequelize, DataTypes, Sequelize) =>
-  sequelize.define("pharmacy", {
+const OnBoardPharmacyProcess = (sequelize, DataTypes, Sequelize) =>
+  sequelize.define("onboard-pharmacy-process", {
     name: {
       type: DataTypes.STRING,
     },
@@ -12,7 +12,7 @@ const OnBoardPharmacy = (sequelize, DataTypes, Sequelize) =>
     whatsapp_phone: {
       type: DataTypes.STRING,
     },
-    Address: {
+    address: {
       type: DataTypes.STRING,
     },
     location: {
@@ -27,6 +27,9 @@ const OnBoardPharmacy = (sequelize, DataTypes, Sequelize) =>
     attendant: {
       type: DataTypes.TEXT,
     },
+    attendantIndex: {
+      type: DataTypes.INTEGER,
+    },
     stage: {
       type: DataTypes.INTEGER,
     },
@@ -35,4 +38,4 @@ const OnBoardPharmacy = (sequelize, DataTypes, Sequelize) =>
     },
   });
 
-module.exports = OnBoardPharmacy;
+module.exports = OnBoardPharmacyProcess;
