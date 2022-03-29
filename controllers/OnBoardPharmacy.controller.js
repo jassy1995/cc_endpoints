@@ -105,7 +105,7 @@ exports.RegisterPharmacy = async (req, res) => {
     let insert_phone = { ...attendant, ...attendant_phone };
     attendants[info.attendantIndex] = insert_phone;
     console.log(insert_phone);
-    console.log(pushUpdated);
+    console.log(attendants);
     await query.updatePharmacyProcess(
       {
         attendant: JSON.stringify(attendants),
