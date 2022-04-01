@@ -1,103 +1,36 @@
-const { Pharmacy, PharmacyProcess } = require("../models");
+const { Client, Order } = require("../models");
 class MyQuery {
-  pendingRegistration = async (phone) => {
-    return await PharmacyProcess.findOne({
-      where: { phone_no: phone },
+  getClient = async (phone) => {
+    return await Client.findOne({
+      where: { phone: phone },
     });
   };
 
-  existPharmacy = async (phone) => {
-    return await Pharmacy.findOne({
-      where: { phone_no: phone },
+  getOrder = async (phone) => {
+    return await Order.findAll({
+      where: { phone: phone },
     });
   };
 
-  isCompleted = async (phone) => {
-    const complete = await this.PharmacyProcess(phone);
-    if (
-      complete.name &&
-      complete.whatsapp_phone &&
-      complete.address &&
-      complete.location &&
-      complete.image &&
-      complete.bank_detail
-    ) {
-      return true;
-    } else {
-      return false;
-    }
-  };
+  createClient = async (data) => await Client.create(data);
 
-  createPharmacy = async (data) => await Pharmacy.create(data);
-  createPharmacyProcess = async (data) => await PharmacyProcess.create(data);
-  pharmacyInfo = async (phone) => {
-    return await PharmacyProcess.findOne({ where: { phone_no: phone } });
-  };
+  createOrder = async (data) => await Order.create(data);
 
-  updatePharmacyProcess = async (data, phone) => {
-    await PharmacyProcess.update(data, {
+  updateClient = async (data, phone) => {
+    await Client.update(data, {
       where: {
-        phone_no: phone,
+        phone: phone,
       },
     });
   };
 
-  // getAllExistCustomer = async (id) => {
-  //   try {
-  //     return await CustomerComplete.findAll({ where: { user_id: id } });
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // getExistArtisan = async (id) => {
-  //   try {
-  //     return await ArtisanComplete.findOne({ where: { user_id: id } });
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // saveCustomerRequest = async (data) => {
-  //   try {
-  //     await CustomerComplete.create(data);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // createArtisan = async (data) => {
-  //   console.log(data);
-  //   try {
-  //     await ArtisanComplete.create(data);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // create = async (data) => {
-  //   try {
-  //     await Stage.create(data);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // update = async (data, id) => {
-  //   try {
-  //     await Stage.update(data, id);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // updateArtisan = async (data, id) => {
-  //   try {
-  //     await ArtisanComplete.update(data, id);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
+  updateOrder = async (data, phone) => {
+    await Order.update(data, {
+      where: {
+        phone: phone,
+      },
+    });
+  };
 }
 
 module.exports = new MyQuery();

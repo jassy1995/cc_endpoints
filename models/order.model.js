@@ -1,38 +1,38 @@
 // const bcrypt = require("bcryptjs");
 
 // const zlib = require("zlib");
-const OnBoardPharmacy = (sequelize, DataTypes, Sequelize) =>
-  sequelize.define("pharmacy", {
-    name: {
+const Order = (sequelize, DataTypes, Sequelize) =>
+  sequelize.define("order", {
+    merchant_id: {
       type: DataTypes.STRING,
     },
-    phone_no: {
+    customer_id: {
       type: DataTypes.STRING,
     },
-    whatsapp_phone: {
+    description: {
       type: DataTypes.STRING,
     },
-    Address: {
+    picture: {
       type: DataTypes.STRING,
     },
-    location: {
+    created_at: {
       type: DataTypes.TEXT,
     },
-    image: {
+    updated_at: {
       type: DataTypes.TEXT,
     },
-    bank_detail: {
+    updated_at: {
       type: DataTypes.TEXT,
     },
-    attendant: {
+    updated_at: {
       type: DataTypes.TEXT,
     },
-    stage: {
-      type: DataTypes.INTEGER,
+    phone: {
+      type: DataTypes.TEXT,
     },
-    step: {
-      type: DataTypes.INTEGER,
+    merchant: {
+      type: DataTypes.TEXT,
     },
   });
 
-module.exports = OnBoardPharmacy;
+module.exports = Order;

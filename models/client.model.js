@@ -1,41 +1,35 @@
 // const bcrypt = require("bcryptjs");
 
 // const zlib = require("zlib");
-const OnBoardPharmacyProcess = (sequelize, DataTypes, Sequelize) =>
-  sequelize.define("onboard-pharmacy-process", {
-    name: {
+const Client = (sequelize, DataTypes, Sequelize) =>
+  sequelize.define("client", {
+    user_id: {
       type: DataTypes.STRING,
     },
-    phone_no: {
+    phone: {
       type: DataTypes.STRING,
-    },
-    whatsapp_phone: {
-      type: DataTypes.STRING,
-    },
-    address: {
-      type: DataTypes.STRING,
-    },
-    location: {
-      type: DataTypes.TEXT,
-    },
-    image: {
-      type: DataTypes.TEXT,
-    },
-    bank_detail: {
-      type: DataTypes.TEXT,
-    },
-    attendant: {
-      type: DataTypes.TEXT,
-    },
-    attendantIndex: {
-      type: DataTypes.INTEGER,
     },
     stage: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
     },
-    step: {
+    qty: {
+      type: DataTypes.STRING,
+    },
+    amount: {
+      type: DataTypes.TEXT,
+    },
+    payment_key: {
+      type: DataTypes.TEXT,
+    },
+    merchant_name: {
+      type: DataTypes.TEXT,
+    },
+    account_no: {
+      type: DataTypes.TEXT,
+    },
+    bank: {
       type: DataTypes.INTEGER,
     },
   });
 
-module.exports = OnBoardPharmacyProcess;
+module.exports = Client;

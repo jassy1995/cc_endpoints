@@ -11,20 +11,12 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   },
 });
 
-const PharmacyProcess = require("./onboard-pharmacy-process.model")(
-  sequelize,
-  DataTypes,
-  Sequelize
-);
-const Pharmacy = require("./onboard-pharmacy.model")(
-  sequelize,
-  DataTypes,
-  Sequelize
-);
+const Order = require("./order.model")(sequelize, DataTypes, Sequelize);
+const Client = require("./client.model")(sequelize, DataTypes, Sequelize);
 
 module.exports = {
-  PharmacyProcess,
-  Pharmacy,
+  Order,
+  Client,
   sequelize,
   Sequelize,
   Op,
