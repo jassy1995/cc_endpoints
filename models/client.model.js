@@ -7,7 +7,7 @@ const Client = (sequelize, DataTypes, Sequelize) =>
       type: DataTypes.INTEGER,
     },
     qty: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
     },
     amount: {
       type: DataTypes.TEXT,
