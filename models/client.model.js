@@ -1,16 +1,10 @@
-// const bcrypt = require("bcryptjs");
-
-// const zlib = require("zlib");
 const Client = (sequelize, DataTypes, Sequelize) =>
   sequelize.define("client", {
-    user_id: {
-      type: DataTypes.STRING,
-    },
     phone: {
       type: DataTypes.STRING,
     },
     stage: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
     },
     qty: {
       type: DataTypes.STRING,
@@ -28,6 +22,12 @@ const Client = (sequelize, DataTypes, Sequelize) =>
       type: DataTypes.TEXT,
     },
     bank: {
+      type: DataTypes.TEXT,
+    },
+    orders: {
+      type: DataTypes.TEXT,
+    },
+    selected_order: {
       type: DataTypes.INTEGER,
     },
   });

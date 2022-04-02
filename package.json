@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "accounting": "^0.4.1",
     "app-root-path": "^3.0.0",
     "axios": "^0.26.1",
     "bank-account-lookup": "^0.1.19",

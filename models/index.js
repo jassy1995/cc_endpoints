@@ -11,11 +11,9 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   },
 });
 
-const Order = require("./order.model")(sequelize, DataTypes, Sequelize);
 const Client = require("./client.model")(sequelize, DataTypes, Sequelize);
 
 module.exports = {
-  Order,
   Client,
   sequelize,
   Sequelize,

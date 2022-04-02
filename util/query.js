@@ -1,4 +1,4 @@
-const { Client, Order } = require("../models");
+const { Client } = require("../models");
 class MyQuery {
   getClient = async (phone) => {
     return await Client.findOne({
@@ -6,26 +6,13 @@ class MyQuery {
     });
   };
 
-  getOrder = async (phone) => {
-    return await Order.findAll({
-      where: { phone: phone },
-    });
-  };
-
   createClient = async (data) => await Client.create(data);
-
-  createOrder = async (data) => await Order.create(data);
+  deleteClient = async (phone) => {
+    await Client.destroy({ where: { phone: phone } });
+  };
 
   updateClient = async (data, phone) => {
     await Client.update(data, {
-      where: {
-        phone: phone,
-      },
-    });
-  };
-
-  updateOrder = async (data, phone) => {
-    await Order.update(data, {
       where: {
         phone: phone,
       },
