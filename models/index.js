@@ -12,9 +12,11 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 });
 
 const Client = require("./client.model")(sequelize, DataTypes, Sequelize);
+const Kyc = require("./kyc.model")(sequelize, DataTypes, Sequelize);
 
 module.exports = {
   Client,
+  Kyc,
   sequelize,
   Sequelize,
   Op,
