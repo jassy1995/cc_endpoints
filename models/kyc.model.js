@@ -4,7 +4,7 @@ const KYC = (sequelize, DataTypes, Sequelize) =>
       type: DataTypes.STRING,
     },
     dob: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.TEXT,
     },
     gender: {
       type: DataTypes.TEXT,
@@ -26,6 +26,12 @@ const KYC = (sequelize, DataTypes, Sequelize) =>
     },
     nin: {
       type: DataTypes.TEXT,
+    },
+    signature: {
+      type: DataTypes.TEXT,
+    },
+    completed: {
+      type: DataTypes.INTEGER,
     },
   });
 
