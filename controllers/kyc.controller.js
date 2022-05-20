@@ -53,7 +53,7 @@ exports.getAllKyc = async (req, res) => {
     limit: 20,
   });
 
-  return res.send(results);
+  return res.send({ message: "success", data: results });
 };
 
 exports.getKycById = async (req, res) => {
