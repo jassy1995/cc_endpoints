@@ -14,6 +14,8 @@ exports.createKyc = async (req, res) => {
     nin: "",
     signature: "",
     completed: 0,
+    stage: 0,
+    step: 0,
   });
   return res.send({ message: "created successfully", result });
 };

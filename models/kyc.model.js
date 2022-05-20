@@ -33,6 +33,12 @@ const KYC = (sequelize, DataTypes, Sequelize) =>
     completed: {
       type: DataTypes.INTEGER,
     },
+    stage: {
+      type: DataTypes.INTEGER,
+    },
+    step: {
+      type: DataTypes.INTEGER,
+    },
   });
 
 module.exports = KYC;
