@@ -8,5 +8,6 @@ router.get("/kyc/:id", controller.getKycById);
 router.post("/kyc/update", controller.updateKyc);
 router.post("/kyc/complete/:id", controller.completeKyc);
 router.post("/kyc/completed-kyc-record", controller.getAllKyc);
+router.post("/kyc/get-kyc-by-phone", controller.getKycByPhone);
 
 module.exports = router;

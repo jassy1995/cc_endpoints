@@ -65,3 +65,8 @@ exports.getKycById = async (req, res) => {
   const result = await Kyc.findByPk(req.params.id);
   return res.send({ message: "fetched successfully", result });
 };
+
+exports.getKycByPhone = async (req, res) => {
+  const result = await Kyc.findOne({ where: { phone: req.body.phone } });
+  return res.send({ message: "fetched successfully", result });
+};
