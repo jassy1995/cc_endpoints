@@ -35,11 +35,9 @@ const KYC = (sequelize, DataTypes, Sequelize) =>
     },
     stage: {
       type: DataTypes.INTEGER,
-      defaultValue: 0,
     },
     step: {
       type: DataTypes.INTEGER,
-      defaultValue: 0,
     },
   });
 
