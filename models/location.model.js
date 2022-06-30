@@ -3,7 +3,7 @@ const Location = (sequelize, DataTypes, Sequelize) =>
     phone: {
       type: DataTypes.STRING,
     },
-    latIng: {
+    latlng: {
       type: DataTypes.TEXT,
     },
     time_created: {
