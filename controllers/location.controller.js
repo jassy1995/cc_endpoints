@@ -1,4 +1,4 @@
-const { Location, Sequelize } = require("../models");
+const { Location, Sequelize, Op } = require("../models");
 const validate1 = require("../validator/location/location");
 const validate2 = require("../validator/location/location2");
 const page_size = 10;
@@ -46,12 +46,34 @@ exports.filterLocation = async (req, res) => {
     pageSize = page_size,
   } = req.body;
   if (!!phone && !!start_time && !!end_time) {
+    const s_time = start_time?.split("T")[1];
+    const e_time = end_time?.split("T")[1];
     let val = await Location.findAll({
+      // where: {
+      //   phone,
+      //   time_created: {
+      //     $between: [start_time, end_time],
+      //   },
+      // },
       where: {
         phone,
-        time_created: {
-          $between: [start_time, end_time],
-        },
+        [Op.and]: [
+          {
+            time_created: {
+              [Op.between]: [start_time, end_time],
+            },
+          },
+          Sequelize.where(
+            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            ">=",
+            s_time
+          ),
+          Sequelize.where(
+            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            "<=",
+            e_time
+          ),
+        ],
       },
       offset: +start,
       limit: pageSize,
