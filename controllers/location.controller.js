@@ -56,6 +56,8 @@ exports.filterLocation = async (req, res) => {
     console.log(s_time, e_time);
     console.log(s_date, e_date);
     console.log(t1, t2);
+    const parseDate1 = parseISO(start_time);
+    const parseDate2 = parseISO(end_time);
     let val = await Location.findAll({
       // where: {
       //   phone,
@@ -66,10 +68,11 @@ exports.filterLocation = async (req, res) => {
       where: {
         phone,
         time_created: {
-          [Op.lt]: new Date(
-            new Date(e_date).getTime() + 60 * 60 * 24 * 1000 - 1
-          ),
-          [Op.gt]: new Date(s_date),
+          [Op.between]: [parseDate1, parseDate2],
+          // [Op.lt]: new Date(
+          //   new Date(e_date).getTime() + 60 * 60 * 24 * 1000 - 1
+          // ),
+          // [Op.gt]: new Date(s_date),
         },
         // time_created: {
         //   [Op.and]: {
