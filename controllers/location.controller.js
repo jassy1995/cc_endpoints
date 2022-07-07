@@ -53,6 +53,9 @@ exports.filterLocation = async (req, res) => {
 
     const t1 = new Date(start_time);
     const t2 = new Date(end_time);
+    console.log(s_time, e_time);
+    console.log(s_date, e_date);
+    console.log(t1, t2);
     let val = await Location.findAll({
       // where: {
       //   phone,
