@@ -73,8 +73,8 @@ exports.filterLocation = async (req, res) => {
             time_created: {
               // [Op.between]: [s_date, e_date],
               [Op.and]: {
-                [Op.gte]: s_date,
-                [Op.lte]: e_date,
+                [Op.gte]: t1,
+                [Op.lte]: t2,
               },
             },
           },
