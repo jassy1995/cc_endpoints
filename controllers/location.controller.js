@@ -79,20 +79,20 @@ exports.filterLocation = async (req, res) => {
             time_created: {
               // [Op.between]: [s_date, e_date],
               [Op.and]: {
-                [Op.lte]: end_time,
-                [Op.gte]: start_time,
+                [Op.lte]: "2022-07-05",
+                [Op.gte]: "2022-07-01",
               },
             },
           },
           Sequelize.where(
             Sequelize.cast(Sequelize.col("time_created"), "time"),
             ">=",
-            `13:52:15`
+            "13:52"
           ),
           Sequelize.where(
             Sequelize.cast(Sequelize.col("time_created"), "time"),
             "<=",
-            `17:03:00`
+            "18:02"
           ),
         ],
       },
