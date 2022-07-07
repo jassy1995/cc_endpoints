@@ -41,16 +41,16 @@ exports.filterLocation = async (req, res) => {
   const {
     start = 0,
     phone = null,
-    starting_time = null,
+    start_time = null,
     end_time = null,
     pageSize = page_size,
   } = req.body;
-  if (!!phone && !!starting_time && !!end_time) {
+  if (!!phone && !!start_time && !!end_time) {
     let val = await Location.findAll({
       where: {
         phone,
         time_created: {
-          $between: [starting_time, end_time],
+          $between: [start_time, end_time],
         },
       },
       offset: +start,
@@ -58,7 +58,6 @@ exports.filterLocation = async (req, res) => {
     });
     return res.send(val);
   } else {
-    console.log("enter second");
     let val = await Location.findAll({
       group: "phone",
       attributes: ["phone", [Sequelize.fn("COUNT", "phone"), "count"]],
