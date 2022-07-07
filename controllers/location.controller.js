@@ -71,7 +71,7 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.phones = async (req, res) => {
-  const result = await Location.aggregate("phone", "phoneNumber", {
+  const result = await Location.aggregate("phone", "phone", {
     plain: false,
   });
 
