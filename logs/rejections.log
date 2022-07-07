@@ -1,0 +1,22 @@
+{ time: [34m07-07-2022 09:04:19[39m level: [31merror[39m message: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\location.route.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js:7:23) stack: Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\routes\location.route.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\web_hook\all-endpoint\util\middleware&route.js:7:23) }

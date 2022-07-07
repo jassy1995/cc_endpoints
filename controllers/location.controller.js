@@ -1,7 +1,7 @@
 const { Location, Sequelize } = require("../models");
 const validate1 = require("../validator/location/location");
 const validate2 = require("../validator/location/location2");
-const pageSize = 4;
+const page_size = 10;
 
 exports.createLocation = async (req, res) => {
   const { error, value } = validate1(req.body);
@@ -43,9 +43,9 @@ exports.filterLocation = async (req, res) => {
     phone = null,
     starting_time = null,
     end_time = null,
+    pageSize = page_size,
   } = req.body;
   if (!!phone && !!starting_time && !!end_time) {
-    console.log("first");
     let val = await Location.findAll({
       where: {
         phone,
@@ -53,13 +53,6 @@ exports.filterLocation = async (req, res) => {
           $between: [starting_time, end_time],
         },
       },
-      group: "phone",
-      attributes: [
-        ["phone", "phone"],
-        [Sequelize.fn("COUNT", "phone"), "count"],
-      ],
-      order: [[Sequelize.literal("count"), "DESC"]],
-      raw: true,
       offset: +start,
       limit: pageSize,
     });
@@ -76,4 +69,9 @@ exports.filterLocation = async (req, res) => {
     });
     return res.send(val);
   }
+};
+
+exports.phones = async (req, res) => {
+  const result = Location.aggregate("phone", "DISTINCT", { plain: false });
+  return res.send(result);
 };
