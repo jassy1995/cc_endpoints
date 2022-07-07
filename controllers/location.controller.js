@@ -72,6 +72,8 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.phones = async (req, res) => {
-  const result = Location.aggregate("phone", "DISTINCT", { plain: false });
+  const result = await Location.aggregate("phone", "DISTINCT", {
+    plain: false,
+  });
   return res.send(result);
 };
