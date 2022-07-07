@@ -79,8 +79,8 @@ exports.filterLocation = async (req, res) => {
             createdAt: {
               // [Op.between]: [s_date, e_date],
               [Op.and]: {
-                [Op.gte]: start_time,
                 [Op.lte]: end_time,
+                [Op.gte]: start_time,
               },
             },
           },
