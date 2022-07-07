@@ -1,0 +1,11 @@
+{ time: [34m07-07-2022 08:01:56[39m level: [31merror[39m message: Sequelize is not definedSequelize is not defined stack: ReferenceError: Sequelize is not defined
+    at exports.filterLocation (C:\CREDITCLAN\web_hook\all-endpoint\controllers\location.controller.js:65:10)
+    at C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\route.js:112:3)
+    at C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\layer.js:95:5)
+    at C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\CREDITCLAN\web_hook\all-endpoint\node_modules\express\lib\router\index.js:275:10) }
