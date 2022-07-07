@@ -81,17 +81,17 @@ exports.filterLocation = async (req, res) => {
           Sequelize.where(
             Sequelize.cast(Sequelize.col("createdAt"), "time"),
             ">=",
-            s_time
+            "12:52"
           ),
           Sequelize.where(
             Sequelize.cast(Sequelize.col("createdAt"), "time"),
             "<=",
-            e_time
+            "17:03"
           ),
         ],
       },
-      offset: +start,
-      limit: pageSize,
+      // offset: +start,
+      // limit: pageSize,
     });
     return res.send(val);
   } else {
