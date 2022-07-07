@@ -69,15 +69,15 @@ exports.filterLocation = async (req, res) => {
         //   },
         // },
         [Op.and]: [
-          {
-            createdAt: {
-              // [Op.between]: [s_date, e_date],
-              [Op.and]: {
-                [Op.gte]: s_date,
-                [Op.lte]: e_date,
-              },
-            },
-          },
+          // {
+          // createdAt: {
+          // [Op.between]: [s_date, e_date],
+          //     [Op.and]: {
+          //       [Op.gte]: s_date,
+          //       [Op.lte]: e_date,
+          //     },
+          //   },
+          // },
           Sequelize.where(
             Sequelize.cast(Sequelize.col("createdAt"), "time"),
             ">=",
