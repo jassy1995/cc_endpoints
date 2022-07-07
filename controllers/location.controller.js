@@ -67,40 +67,34 @@ exports.filterLocation = async (req, res) => {
       // },
       where: {
         phone,
-        time_created: {
-          [Op.between]: [parseDate1, parseDate2],
-          // [Op.lt]: new Date(
-          //   new Date(e_date).getTime() + 60 * 60 * 24 * 1000 - 1
-          // ),
-          // [Op.gt]: new Date(s_date),
-        },
+
         // time_created: {
         //   [Op.and]: {
         //     [Op.gte]: t1,
         //     [Op.lte]: t2,
         //   },
         // },
-        // [Op.and]: [
-        // {
-        // createdAt: {
-        // [Op.between]: [s_date, e_date],
-        //     [Op.and]: {
-        //       [Op.gte]: s_date,
-        //       [Op.lte]: e_date,
-        //     },
-        //   },
-        // },
-        //   Sequelize.where(
-        //     Sequelize.cast(Sequelize.col("time_created"), "time"),
-        //     ">=",
-        //     `12:52:15`
-        //   ),
-        //   Sequelize.where(
-        //     Sequelize.cast(Sequelize.col("time_created"), "time"),
-        //     "<=",
-        //     `17:03:00`
-        //   ),
-        // ],
+        [Op.and]: [
+          {
+            createdAt: {
+              [Op.between]: [s_date, e_date],
+              // [Op.and]: {
+              //   [Op.gte]: s_date,
+              //   [Op.lte]: e_date,
+              // },
+            },
+          },
+          Sequelize.where(
+            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            ">=",
+            `12:52:15`
+          ),
+          Sequelize.where(
+            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            "<=",
+            `17:03:00`
+          ),
+        ],
       },
       // offset: +start,
       // limit: pageSize,
