@@ -59,17 +59,17 @@ exports.filterLocation = async (req, res) => {
         phone,
         [Op.and]: [
           {
-            time_created: {
+            createdAt: {
               [Op.between]: [start_time, end_time],
             },
           },
           Sequelize.where(
-            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            Sequelize.cast(Sequelize.col("createdAt"), "time"),
             ">=",
             s_time
           ),
           Sequelize.where(
-            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            Sequelize.cast(Sequelize.col("createdAt"), "time"),
             "<=",
             e_time
           ),
