@@ -71,12 +71,10 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.phones = async (req, res) => {
-  const result = await Location.aggregate("phone", "phone", {
-    plain: false,
+  const test = await Location.findAll({
+    attributes: [
+      [Sequelize.fn("DISTINCT", Sequelize.col("phone")), "phoneNumber"],
+    ],
   });
-
-  // const test = await Location.findAll({
-  //   attributes: [[Sequelize.fn("DISTINCT", Sequelize.col("phone")), "phone"]],
-  // });
   return res.send(result);
 };
