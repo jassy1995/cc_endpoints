@@ -84,12 +84,12 @@ exports.filterLocation = async (req, res) => {
           Sequelize.where(
             Sequelize.cast(Sequelize.col("time_created"), "time"),
             ">=",
-            `${start_time?.split("T")[1]}`
+            `12:52:15`
           ),
           Sequelize.where(
             Sequelize.cast(Sequelize.col("time_created"), "time"),
             "<=",
-            `${end_time?.split("T")[1]}`
+            `17:03:00`
           ),
         ],
       },
