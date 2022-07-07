@@ -40,9 +40,9 @@ exports.retrieveLocation = async (req, res) => {
 exports.filterLocation = async (req, res) => {
   const {
     start = 0,
-    phone = null,
-    start_time = null,
-    end_time = null,
+    phone,
+    start_time,
+    end_time,
     pageSize = page_size,
   } = req.body;
   if (!!phone && !!start_time && !!end_time) {
