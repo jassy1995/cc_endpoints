@@ -50,6 +50,9 @@ exports.filterLocation = async (req, res) => {
     const e_time = end_time?.split("T")[1];
     const s_date = start_time?.split("T")[0];
     const e_date = end_time?.split("T")[0];
+
+    const t1 = new Date(start_time);
+    const t2 = new Date(end_time);
     let val = await Location.findAll({
       // where: {
       //   phone,
@@ -59,23 +62,29 @@ exports.filterLocation = async (req, res) => {
       // },
       where: {
         phone,
-        [Op.and]: [
-          {
-            time_created: {
-              [Op.between]: [s_date, e_date],
-            },
+        time_created: {
+          [Op.and]: {
+            [Op.gte]: t1,
+            [Op.lte]: t2,
           },
-          Sequelize.where(
-            Sequelize.cast(Sequelize.col("time_created"), "time"),
-            ">=",
-            s_time
-          ),
-          Sequelize.where(
-            Sequelize.cast(Sequelize.col("time_created"), "time"),
-            "<=",
-            e_time
-          ),
-        ],
+        },
+        // [Op.and]: [
+        //   {
+        //     time_created: {
+        //       [Op.between]: [s_date, e_date],
+        //     },
+        //   },
+        //   Sequelize.where(
+        //     Sequelize.cast(Sequelize.col("time_created"), "time"),
+        //     ">=",
+        //     s_time
+        //   ),
+        //   Sequelize.where(
+        //     Sequelize.cast(Sequelize.col("time_created"), "time"),
+        //     "<=",
+        //     e_time
+        //   ),
+        // ],
       },
       offset: +start,
       limit: pageSize,
