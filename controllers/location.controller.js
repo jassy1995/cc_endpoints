@@ -71,7 +71,7 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.phones = async (req, res) => {
-  const test = await Location.findAll({
+  const result = await Location.findAll({
     attributes: [
       [Sequelize.fn("DISTINCT", Sequelize.col("phone")), "phoneNumber"],
     ],
