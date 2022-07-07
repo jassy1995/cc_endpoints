@@ -48,6 +48,8 @@ exports.filterLocation = async (req, res) => {
   if (!!phone && !!start_time && !!end_time) {
     const s_time = start_time?.split("T")[1];
     const e_time = end_time?.split("T")[1];
+    const s_date = start_time?.split("T")[0];
+    const e_date = end_time?.split("T")[0];
     let val = await Location.findAll({
       // where: {
       //   phone,
@@ -60,7 +62,7 @@ exports.filterLocation = async (req, res) => {
         [Op.and]: [
           {
             createdAt: {
-              [Op.between]: [start_time, end_time],
+              [Op.between]: [s_date, e_date],
             },
           },
           Sequelize.where(
