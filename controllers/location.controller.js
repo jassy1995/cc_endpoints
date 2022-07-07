@@ -62,29 +62,33 @@ exports.filterLocation = async (req, res) => {
       // },
       where: {
         phone,
-        time_created: {
-          [Op.and]: {
-            [Op.gte]: t1,
-            [Op.lte]: t2,
-          },
-        },
-        // [Op.and]: [
-        //   {
-        //     time_created: {
-        //       [Op.between]: [s_date, e_date],
-        //     },
+        // time_created: {
+        //   [Op.and]: {
+        //     [Op.gte]: t1,
+        //     [Op.lte]: t2,
         //   },
-        //   Sequelize.where(
-        //     Sequelize.cast(Sequelize.col("time_created"), "time"),
-        //     ">=",
-        //     s_time
-        //   ),
-        //   Sequelize.where(
-        //     Sequelize.cast(Sequelize.col("time_created"), "time"),
-        //     "<=",
-        //     e_time
-        //   ),
-        // ],
+        // },
+        [Op.and]: [
+          {
+            time_created: {
+              // [Op.between]: [s_date, e_date],
+              [Op.and]: {
+                [Op.gte]: s_date,
+                [Op.lte]: e_date,
+              },
+            },
+          },
+          Sequelize.where(
+            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            ">=",
+            s_time
+          ),
+          Sequelize.where(
+            Sequelize.cast(Sequelize.col("time_created"), "time"),
+            "<=",
+            e_time
+          ),
+        ],
       },
       offset: +start,
       limit: pageSize,
