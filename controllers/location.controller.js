@@ -42,6 +42,8 @@ exports.filterLocation = async (req, res) => {
   if (!!phone && !!start_time && !!end_time) {
     let endDate = req.body.end_time;
     let startDate = req.body.start_time;
+    let liveDate = Date.now();
+    console.log(liveDate);
     const list = await Location.findAll({
       where: {
         phone,
