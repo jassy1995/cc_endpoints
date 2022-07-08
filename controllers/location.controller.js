@@ -75,7 +75,19 @@ exports.filterLocation = async (req, res) => {
       offset: +start,
       limit: pageSize,
     });
-    return res.send(val);
+
+    const result = await Promise.all(
+      val.map((x) => {
+        const ts = Location.findOne({
+          where: { phone: x.phone },
+          order: [["createdAt", "DESC"]],
+          // attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
+        });
+
+        return { ...ts, count: x.count };
+      })
+    );
+    return res.send(result);
   }
 };
 
