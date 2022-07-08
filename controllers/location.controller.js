@@ -38,68 +38,61 @@ exports.retrieveLocation = async (req, res) => {
 };
 
 exports.filterLocation = async (req, res) => {
-  const {
-    start = 0,
-    phone,
-    start_time,
-    end_time,
-    pageSize = page_size,
-  } = req.body;
+  const { start, phone, start_time, end_time, pageSize = page_size } = req.body;
   if (!!phone && !!start_time && !!end_time) {
-    const s_time = start_time?.split("T")[1];
-    const e_time = end_time?.split("T")[1];
-    const s_date = start_time?.split("T")[0];
-    const e_date = end_time?.split("T")[0];
+    // const s_time = start_time?.split("T")[1];
+    // const e_time = end_time?.split("T")[1];
+    // const s_date = start_time?.split("T")[0];
+    // const e_date = end_time?.split("T")[0];
 
-    const t1 = new Date(start_time);
-    const t2 = new Date(end_time);
-    console.log(s_time, e_time);
-    console.log(s_date, e_date);
-    console.log(t1, t2);
-    // const parseDate1 = parseISO(start_time);
-    // const parseDate2 = parseISO(end_time);
-    let val = await Location.findAll({
-      // where: {
-      //   phone,
-      //   time_created: {
-      //     $between: [start_time, end_time],
-      //   },
-      // },
+    // const t1 = new Date(start_time);
+    // const t2 = new Date(end_time);
+    // console.log(s_time, e_time);
+    // console.log(s_date, e_date);
+    // console.log(t1, t2);
+
+    let endDate = req.body.endDate;
+    let startDate = req.body.startDate;
+    const list = await Location.findAll({
       where: {
         phone,
-
-        // time_created: {
-        //   [Op.and]: {
-        //     [Op.gte]: t1,
-        //     [Op.lte]: t2,
-        //   },
-        // },
-        [Op.and]: [
-          {
-            time_created: {
-              // [Op.between]: [s_date, e_date],
-              [Op.and]: {
-                [Op.lte]: "2022-07-05",
-                [Op.gte]: "2022-07-01",
-              },
-            },
-          },
-          Sequelize.where(
-            Sequelize.cast(Sequelize.col("time_created"), "time"),
-            ">=",
-            "13:52"
+        createdAt: {
+          [Op.gt]: new Date(startDate),
+          [Op.lt]: new Date(
+            new Date(endDate).getTime() + 60 * 60 * 24 * 1000 - 1
           ),
-          Sequelize.where(
-            Sequelize.cast(Sequelize.col("time_created"), "time"),
-            "<=",
-            "18:02"
-          ),
-        ],
+        },
       },
-      // offset: +start,
-      // limit: pageSize,
     });
-    return res.send(val);
+
+    // let val = await Location.findAll({
+    //   where: {
+    //     phone,
+    //     [Op.and]: [
+    //       {
+    //         time_created: {
+    //           [Op.and]: {
+    //             [Op.lte]: "2022-07-05",
+    //             [Op.gte]: "2022-07-01",
+    //           },
+    //         },
+    //       },
+    //       Sequelize.where(
+    //         Sequelize.cast(Sequelize.col("time_created"), "time"),
+    //         ">=",
+    //         "13:52"
+    //       ),
+    //       Sequelize.where(
+    //         Sequelize.cast(Sequelize.col("time_created"), "time"),
+    //         "<=",
+    //         "18:02"
+    //       ),
+    //     ],
+    //   },
+    // offset: +start,
+    // limit: pageSize,
+    // });
+    return res.send(list);
   } else {
     let val = await Location.findAll({
       group: "phone",
