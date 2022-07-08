@@ -118,7 +118,8 @@ exports.getLastVisited = async (req, res) => {
         where: {
           phone: x.phone,
           createdAt: {
-            [Op.gt]: Sequelize.literal("NOW() - INTERVAL '24 HOURS'"),
+            // [Op.gt]: Sequelize.literal("NOW() - INTERVAL '24 HOURS'"),
+            [Op.gt]: new Date(Date.now() - 24 * 60 * 60 * 1000),
           },
         },
         order: [["createdAt", "DESC"]],
