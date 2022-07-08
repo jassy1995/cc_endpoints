@@ -75,17 +75,13 @@ exports.filterLocation = async (req, res) => {
       offset: +start,
       limit: pageSize,
     });
-    console.log(val);
 
     const result = await Promise.all(
       val.map((x) => {
         return Location.findOne({
           where: { phone: x.phone },
           order: [["createdAt", "DESC"]],
-          // attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
         });
-        // console.log(x);
-        // console.log(ts);
       })
     );
     return res.send(result);
@@ -93,12 +89,38 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.getLastVisited = async (req, res) => {
-  const result = await sequelize.query(
-    "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
-    {
-      type: QueryTypes.SELECT,
-    }
+  // const result = await sequelize.query(
+  //   "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
+  //   {
+  //     type: QueryTypes.SELECT,
+  //   }
+  // );
+
+  let val = await Location.findAll({
+    group: "phone",
+    attributes: [
+      "phone",
+      [Sequelize.fn("COUNT", "phone"), "count"],
+      "latlng",
+      "time_created",
+    ],
+    order: [
+      ["createdAt", "DESC"],
+      [Sequelize.literal("count"), "DESC"],
+    ],
+    raw: true,
+  });
+  const twentyFourHrInMs = 24 * 60 * 60 * 1000;
+  const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
+  const result = await Promise.all(
+    val.map((x) => {
+      return Location.findOne({
+        where: { phone: x.phone, createdAt: { [Op.gt]: twentyFourHoursAgo } },
+        order: [["createdAt", "DESC"]],
+      });
+    })
   );
+
   // select MAX(createdAt),phone from location where createdAt <  DATE_SUB(column, INTERVAL 24 HOUR) group by phone
   // const lastRecord = await Location.findOne({
   //   where: { phone: req.body.phone },
