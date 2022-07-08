@@ -19,6 +19,7 @@ const dbConfig = {
   pool: {
     max: 50,
     min: 0,
+    connectionLimit: 100,
     acquire: 30000,
     idle: 10000,
   },
