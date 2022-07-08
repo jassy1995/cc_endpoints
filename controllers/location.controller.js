@@ -82,28 +82,26 @@ exports.getLastVisited = async (req, res) => {
   // });
   // if (dateRmain > 24) {
   // }
+  //  where:{productId:pid},
+  //   attributes:[[sequelize.fn('max', sequelize.col('rating')),'max']]
   const twentyFourHrInMs = 24 * 60 * 60 * 1000;
   const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
   const allUser = await Location.findAll();
   // const post = await Post.find({ userId: currentUser._id });
   // where: { [Op.and]: [{ createdAt: 5 }, { createdAt: 6 }] },
-  const friendsPost = await Promise.all(
+  const result = await Promise.all(
     allUser.map((x) => {
       const ts = Location.findAll({
         where: { id: x.id },
-        order: [["createdAt", "DESC"]],
+        attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
+        // order: [["createdAt", "DESC"]],
       });
 
-      // const ds = Location.findOne({
-      //   where: { id: x.id },
-      //   order: [["createdAt", "DESC"]],
-      // });
       return ts;
-      // if (ts[0]?.createdAt > twentyFourHoursAgo) return ts[0];
     })
   );
 
-  return res.send(friendsPost);
+  return res.send(result);
 };
 
 exports.phones = async (req, res) => {
