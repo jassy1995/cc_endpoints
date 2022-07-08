@@ -75,7 +75,7 @@ exports.filterLocation = async (req, res) => {
       offset: +start,
       limit: pageSize,
     });
-
+    console.log(val);
     const result = await Promise.all(
       val.map((x) => {
         const ts = Location.findAll({
