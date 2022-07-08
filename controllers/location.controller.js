@@ -46,8 +46,9 @@ exports.filterLocation = async (req, res) => {
     // let currentDate = Date.now();
     // const formattedDate = new Date(currentDate).toLocaleString("sv");
     // const currentDateOnly = formattedDate?.split(" ")[0];
-    const s_time = new Date(`2000-01-01 ${startDate}`).toLocaleString("sv");
-    const e_time = new Date(`2050:01:01 ${endDate}`).toLocaleString("sv");
+    // const s_time = new Date(`2000-01-01 ${startDate}`).toLocaleString("sv");
+    const s_time = new Date(`2000-01-01 ${startDate}`);
+    const e_time = new Date(`2050:01:01 ${endDate}`);
     const list = await Location.findAll({
       where: {
         phone,
