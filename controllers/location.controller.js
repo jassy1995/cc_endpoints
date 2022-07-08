@@ -68,8 +68,8 @@ exports.filterLocation = async (req, res) => {
         "time_created",
       ],
       order: [
+        ["createdAt", "DESC"],
         [Sequelize.literal("count"), "DESC"],
-        ["time_created", "DESC"],
       ],
       raw: true,
       offset: +start,
