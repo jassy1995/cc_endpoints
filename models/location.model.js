@@ -7,7 +7,7 @@ const Location = (sequelize, DataTypes, Sequelize) =>
       type: DataTypes.TEXT,
     },
     time: {
-      type: DataTypes.TEXT,
+      type: DataTypes.TIME,
     },
     time_created: {
       type: DataTypes.TEXT,

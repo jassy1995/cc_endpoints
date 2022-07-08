@@ -9,7 +9,9 @@ exports.createLocation = async (req, res) => {
     return res.status(400).json({ message: error.details[0].message });
   }
   const { phone, latlng, time_created } = req.body;
-  const result = await Location.create({ phone, latlng, time_created });
+  // const time = 2022 - 07 - 01 13: 36: 24.735748
+  const time = time_created?.split(" ")[1].slice(0, 5);
+  const result = await Location.create({ phone, latlng, time_created, time });
   if (!result) {
     return res.send({
       message: "unable to save, please try again",
@@ -47,14 +49,15 @@ exports.filterLocation = async (req, res) => {
     // const formattedDate = new Date(currentDate).toLocaleString("sv");
     // const currentDateOnly = formattedDate?.split(" ")[0];
     // const s_time = new Date(`2000-01-01 ${startDate}`).toLocaleString("sv");
-    const s_time = new Date(`2000-01-01 ${startDate}`);
-    const e_time = new Date(`2050:01:01 ${endDate}`);
+    // const s_time = new Date(`2000-01-01 ${startDate}`);
+    // const e_time = new Date(`2050:01:01 ${endDate}`);
     const list = await Location.findAll({
       where: {
         phone,
-        createdAt: {
-          [Op.gt]: s_time,
-          [Op.lt]: new Date(e_time.getTime() + 60 * 60 * 24 * 1000 - 1),
+        time: {
+          [Op.gt]: startDate,
+          [Op.lt]: endDate,
+          // [Op.lt]: new Date(e_time.getTime() + 60 * 60 * 24 * 1000 - 1),
         },
       },
       offset: +start,
