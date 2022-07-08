@@ -76,9 +76,10 @@ exports.filterLocation = async (req, res) => {
       limit: pageSize,
     });
     console.log(val);
+
     const result = await Promise.all(
       val.map((x) => {
-        const ts = Location.findAll({
+        const ts = await Location.findAll({
           where: { phone: x.phone },
           // attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
         });
