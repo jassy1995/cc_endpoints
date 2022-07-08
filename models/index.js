@@ -1,4 +1,4 @@
-const { Sequelize, DataTypes, Op } = require("sequelize");
+const { Sequelize, DataTypes, Op, QueryTypes } = require("sequelize");
 const dbConfig = require("../config/db.config");
 const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   host: dbConfig.HOST,
@@ -21,6 +21,7 @@ module.exports = {
   Location,
   sequelize,
   Sequelize,
+  QueryTypes,
   Op,
   DataTypes,
 };
