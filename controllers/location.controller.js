@@ -98,7 +98,8 @@ exports.getLastVisited = async (req, res) => {
       //   where: { id: x.id },
       //   order: [["createdAt", "DESC"]],
       // });
-      if (ts[0]?.createdAt > twentyFourHoursAgo) return ts[0];
+      return ts;
+      // if (ts[0]?.createdAt > twentyFourHoursAgo) return ts[0];
     })
   );
 
