@@ -82,7 +82,8 @@ exports.filterLocation = async (req, res) => {
           where: { phone: x.phone },
           // attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
         });
-
+        console.log(x);
+        console.log(ts);
         return { ...ts[ts.length - 1], count: x.count };
       })
     );
