@@ -1,11 +1,4 @@
-const {
-  Location,
-  Sequelize,
-  Op,
-  QueryTypes,
-  QueryTypes,
-  sequelize,
-} = require("../models");
+const { Location, Sequelize, Op, QueryTypes, sequelize } = require("../models");
 const validate1 = require("../validator/location/location");
 const validate2 = require("../validator/location/location2");
 const page_size = 10;
