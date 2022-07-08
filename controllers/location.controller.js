@@ -8,8 +8,9 @@ exports.createLocation = async (req, res) => {
   if (error) {
     return res.status(400).json({ message: error.details[0].message });
   }
-  const { phone, latlng, time_created } = req.body;
+  const { phone, latlng } = req.body;
   // const time = 2022 - 07 - 01 13: 36: 24.735748
+  const time_created = new Date(Date.now()).toLocaleString("sv");
   const time = time_created?.split(" ")[1].slice(0, 5);
   const result = await Location.create({ phone, latlng, time_created, time });
   if (!result) {
