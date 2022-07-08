@@ -6,6 +6,9 @@ const Location = (sequelize, DataTypes, Sequelize) =>
     latlng: {
       type: DataTypes.TEXT,
     },
+    time: {
+      type: DataTypes.TEXT,
+    },
     time_created: {
       type: DataTypes.TEXT,
     },

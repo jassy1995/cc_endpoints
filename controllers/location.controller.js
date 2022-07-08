@@ -40,18 +40,20 @@ exports.retrieveLocation = async (req, res) => {
 exports.filterLocation = async (req, res) => {
   const { start, phone, start_time, end_time, pageSize = page_size } = req.body;
   if (!!phone && !!start_time && !!end_time) {
-    let endDate = req.body.end_time;
-    let startDate = req.body.start_time;
-    let liveDate = Date.now();
-    console.log(liveDate);
+    // select * from locations where (time_created between '2000-01-01 09:00:00' and '2050:01:01 12:00:00') and phone = '08179264890'
+    const endDate = req.body.end_time;
+    const startDate = req.body.start_time;
+    // let currentDate = Date.now();
+    // const formattedDate = new Date(currentDate).toLocaleString("sv");
+    // const currentDateOnly = formattedDate?.split(" ")[0];
+    const s_time = new Date(`2000-01-01 ${startDate}`).toLocaleString("sv");
+    const e_time = new Date(`2050:01:01 ${endDate}`).toLocaleString("sv");
     const list = await Location.findAll({
       where: {
         phone,
         createdAt: {
-          [Op.gt]: new Date(startDate),
-          [Op.lt]: new Date(
-            new Date(endDate).getTime() + 60 * 60 * 24 * 1000 - 1
-          ),
+          [Op.gt]: s_time,
+          [Op.lt]: new Date(e_time.getTime() + 60 * 60 * 24 * 1000 - 1),
         },
       },
       offset: +start,
