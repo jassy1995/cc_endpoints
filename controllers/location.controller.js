@@ -115,7 +115,12 @@ exports.getLastVisited = async (req, res) => {
   const result = await Promise.all(
     val.map((x) => {
       return Location.findOne({
-        where: { phone: x.phone, createdAt: { [Op.gt]: twentyFourHoursAgo } },
+        where: {
+          phone: x.phone,
+          createdAt: {
+            [Op.gt]: Sequelize.literal("NOW() - INTERVAL '24 HOURS'"),
+          },
+        },
         order: [["createdAt", "DESC"]],
       });
     })
