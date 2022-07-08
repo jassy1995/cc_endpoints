@@ -1,4 +1,11 @@
-const { Location, Sequelize, Op } = require("../models");
+const {
+  Location,
+  Sequelize,
+  Op,
+  QueryTypes,
+  QueryTypes,
+  sequelize,
+} = require("../models");
 const validate1 = require("../validator/location/location");
 const validate2 = require("../validator/location/location2");
 const page_size = 10;
@@ -71,6 +78,12 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.getLastVisited = async (req, res) => {
+  const result = await sequelize.query(
+    "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
+    {
+      type: QueryTypes.SELECT,
+    }
+  );
   // select MAX(createdAt),phone from location where createdAt <  DATE_SUB(column, INTERVAL 24 HOUR) group by phone
   // const lastRecord = await Location.findOne({
   //   where: { phone: req.body.phone },
@@ -84,22 +97,22 @@ exports.getLastVisited = async (req, res) => {
   // }
   //  where:{productId:pid},
   //   attributes:[[sequelize.fn('max', sequelize.col('rating')),'max']]
-  const twentyFourHrInMs = 24 * 60 * 60 * 1000;
-  const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
-  const allUser = await Location.findAll();
+  // const twentyFourHrInMs = 24 * 60 * 60 * 1000;
+  // const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
+  // const allUser = await Location.findAll();
   // const post = await Post.find({ userId: currentUser._id });
   // where: { [Op.and]: [{ createdAt: 5 }, { createdAt: 6 }] },
-  const result = await Promise.all(
-    allUser.map((x) => {
-      const ts = Location.findAll({
-        where: { id: x.id },
-        attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
-        // order: [["createdAt", "DESC"]],
-      });
+  // const result = await Promise.all(
+  //   allUser.map((x) => {
+  //     const ts = Location.findAll({
+  //       where: { id: x.id },
+  //       attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
 
-      return ts;
-    })
-  );
+  //     });
+
+  //     return ts;
+  //   })
+  // );
 
   return res.send(result);
 };
