@@ -60,22 +60,16 @@ exports.filterLocation = async (req, res) => {
     return res.send(list);
   } else {
     let val = await Location.findAll({
-      // group: "phone",
-      // attributes: [
-      //   "phone",
-      //   [Sequelize.fn("COUNT", "phone"), "count"],
-      //   "latlng",
-      //   "time_created",
-      // ],
+      group: "phone",
       attributes: [
         "phone",
-        [Sequelize.fn("DISTINCT", Sequelize.col("phone")), "phoneNumber"],
+        [Sequelize.fn("COUNT", "phone"), "count"],
         "latlng",
         "time_created",
       ],
       order: [
         [Sequelize.literal("count"), "DESC"],
-        ["createdAt", "DESC"],
+        ["time_created", "DESC"],
       ],
       raw: true,
       offset: +start,
