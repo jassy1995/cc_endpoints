@@ -79,13 +79,12 @@ exports.filterLocation = async (req, res) => {
 
     const result = await Promise.all(
       val.map((x) => {
-        const ts = await Location.findAll({
+        return Location.findAll({
           where: { phone: x.phone },
           // attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
         });
-        console.log(x);
-        console.log(ts);
-        return { ...ts[ts.length - 1], count: x.count };
+        // console.log(x);
+        // console.log(ts);
       })
     );
     return res.send(result);
