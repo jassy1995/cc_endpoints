@@ -70,6 +70,41 @@ exports.filterLocation = async (req, res) => {
   }
 };
 
+exports.getLastVisited = async (req, res) => {
+  // select MAX(createdAt),phone from location where createdAt <  DATE_SUB(column, INTERVAL 24 HOUR) group by phone
+  // const lastRecord = await Location.findOne({
+  //   where: { phone: req.body.phone },
+  //   order: [["createdAt", "DESC"]],
+  // });
+
+  // const lastVisitedRecords = await Location.findOne({
+  //   where: { phone: req.body.phone, createdAt: { [Op.gt]: 24 } },
+  // });
+  // if (dateRmain > 24) {
+  // }
+  const twentyFourHrInMs = 24 * 60 * 60 * 1000;
+  const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
+  const allUser = await Location.findAll();
+  // const post = await Post.find({ userId: currentUser._id });
+  // where: { [Op.and]: [{ createdAt: 5 }, { createdAt: 6 }] },
+  const friendsPost = await Promise.all(
+    allUser.map((x) => {
+      const ts = Location.findAll({
+        where: { id: x.id },
+        order: [["createdAt", "DESC"]],
+      });
+
+      // const ds = Location.findOne({
+      //   where: { id: x.id },
+      //   order: [["createdAt", "DESC"]],
+      // });
+      if (ts[0]?.createdAt > twentyFourHoursAgo) return ts[0];
+    })
+  );
+
+  return res.send(friendsPost);
+};
+
 exports.phones = async (req, res) => {
   const result = await Location.findAll({
     attributes: [
