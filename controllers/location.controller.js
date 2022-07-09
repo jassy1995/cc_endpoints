@@ -89,43 +89,43 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.getLastVisited = async (req, res) => {
-  // const result = await sequelize.query(
-  //   "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
-  //   {
-  //     type: QueryTypes.SELECT,
-  //   }
-  // );
-
-  let val = await Location.findAll({
-    group: "phone",
-    attributes: [
-      "phone",
-      [Sequelize.fn("COUNT", "phone"), "count"],
-      "latlng",
-      "time_created",
-    ],
-    order: [
-      ["createdAt", "DESC"],
-      [Sequelize.literal("count"), "DESC"],
-    ],
-    raw: true,
-  });
-  const twentyFourHrInMs = 24 * 60 * 60 * 1000;
-  const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
-  const result = await Promise.all(
-    val.map((x) => {
-      return Location.findOne({
-        where: {
-          phone: x.phone,
-          createdAt: {
-            // [Op.gt]: Sequelize.literal("NOW() - INTERVAL '24 HOURS'"),
-            [Op.gt]: new Date(Date.now() - 24 * 60 * 60 * 1000),
-          },
-        },
-        order: [["createdAt", "DESC"]],
-      });
-    })
+  const result = await sequelize.query(
+    "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
+    {
+      type: QueryTypes.SELECT,
+    }
   );
+
+  // let val = await Location.findAll({
+  //   group: "phone",
+  //   attributes: [
+  //     "phone",
+  //     [Sequelize.fn("COUNT", "phone"), "count"],
+  //     "latlng",
+  //     "time_created",
+  //   ],
+  //   order: [
+  //     ["createdAt", "DESC"],
+  //     [Sequelize.literal("count"), "DESC"],
+  //   ],
+  //   raw: true,
+  // });
+  // const twentyFourHrInMs = 24 * 60 * 60 * 1000;
+  // const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
+  // const result = await Promise.all(
+  //   val.map((x) => {
+  //     return Location.findOne({
+  //       where: {
+  //         phone: x.phone,
+  //         createdAt: {
+  // [Op.gt]: Sequelize.literal("NOW() - INTERVAL '24 HOURS'"),
+  // [Op.gt]: new Date(Date.now() - 24 * 60 * 60 * 1000),
+  //         },
+  //       },
+  //       order: [["createdAt", "DESC"]],
+  //     });
+  //   })
+  // );
 
   // select MAX(createdAt),phone from location where createdAt <  DATE_SUB(column, INTERVAL 24 HOUR) group by phone
   // const lastRecord = await Location.findOne({
