@@ -89,8 +89,15 @@ exports.filterLocation = async (req, res) => {
 };
 
 exports.getLastVisited = async (req, res) => {
+  // const result = await sequelize.query(
+  //   "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
+  //   {
+  //     type: QueryTypes.SELECT,
+  //   }
+  // );
+
   const result = await sequelize.query(
-    "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
+    "SELECT phone,createdAt from locations where createdAt in (SELECT MAX(createdAt) from locations group by phone) and createdAt < date_sub(now(),interval 24 hour)",
     {
       type: QueryTypes.SELECT,
     }
