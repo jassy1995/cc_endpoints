@@ -41,11 +41,19 @@ exports.retrieveLocation = async (req, res) => {
 
 exports.filterLocation = async (req, res) => {
   const { start, phone, start_time, end_time, pageSize = page_size } = req.body;
-  const countLocations = await Location.count();
   if (!!phone && !!start_time && !!end_time) {
     // select * from locations where (time_created between '2000-01-01 09:00:00' and '2050:01:01 12:00:00') and phone = '08179264890'
     const endDate = req.body.end_time;
     const startDate = req.body.start_time;
+    const count_total = await Location.findAll({
+      where: {
+        phone,
+        time: {
+          [Op.gte]: startDate,
+          [Op.lte]: endDate,
+        },
+      },
+    });
     const list = await Location.findAll({
       where: {
         phone,
@@ -59,9 +67,16 @@ exports.filterLocation = async (req, res) => {
     });
     return res.send({
       result: list,
-      total_page: Math.ceil(countLocations / pageSize),
+      total_page: Math.ceil(count_total / pageSize),
     });
   } else {
+    const count_total_result = await sequelize.query(
+      `SELECT phone,time_created,latlng from locations where time_created in (SELECT MAX(time_created) from locations group by phone)`,
+      {
+        type: QueryTypes.SELECT,
+      }
+    );
+
     const result = await sequelize.query(
       `SELECT phone,time_created,latlng from locations where time_created in (SELECT MAX(time_created) from locations group by phone) LIMIT ${+start}, ${pageSize} `,
       {
@@ -96,7 +111,7 @@ exports.filterLocation = async (req, res) => {
     // );
     return res.send({
       result,
-      total_page: Math.ceil(countLocations / pageSize),
+      total_page: Math.ceil(count_total_result / pageSize),
     });
   }
 };
