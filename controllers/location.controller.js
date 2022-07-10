@@ -59,7 +59,7 @@ exports.filterLocation = async (req, res) => {
     return res.send(list);
   } else {
     const result = await sequelize.query(
-      `SELECT phone,time_created,latlng,COUNT(phone) as count from locations where time_created in (SELECT MAX(time_created) from locations group by phone) LIMIT ${+start}, ${pageSize} `,
+      `SELECT phone,time_created,latlng from locations where time_created in (SELECT MAX(time_created) from locations group by phone) LIMIT ${+start}, ${pageSize} `,
       {
         type: QueryTypes.SELECT,
       }
@@ -93,7 +93,7 @@ exports.filterLocation = async (req, res) => {
     return res.send(result);
   }
 };
-// LIMIT 1, 2
+
 exports.getLastVisited = async (req, res) => {
   // const result = await sequelize.query(
   //   "select distinct(phone) from locations where HOUR(TIMEDIFF(now(), time_created)) > 24 order by id desc",
