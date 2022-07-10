@@ -9,7 +9,6 @@ exports.createLocation = async (req, res) => {
     return res.status(400).json({ message: error.details[0].message });
   }
   const { phone, latlng } = req.body;
-  // const time = 2022 - 07 - 01 13: 36: 24.735748
   const time_created = new Date(Date.now()).toLocaleString("sv");
   const time = time_created?.split(" ")[1].slice(0, 5);
   const result = await Location.create({ phone, latlng, time_created, time });
@@ -97,72 +96,11 @@ exports.getLastVisited = async (req, res) => {
   // );
 
   const result = await sequelize.query(
-    "SELECT phone,createdAt from locations where createdAt in (SELECT MAX(createdAt) from locations group by phone) and createdAt < date_sub(now(),interval 24 hour)",
+    "SELECT phone,time_created from locations where time_created in (SELECT MAX(time_created) from locations group by phone) and time_created < date_sub(now(),interval 24 hour)",
     {
       type: QueryTypes.SELECT,
     }
   );
-
-  // let val = await Location.findAll({
-  //   group: "phone",
-  //   attributes: [
-  //     "phone",
-  //     [Sequelize.fn("COUNT", "phone"), "count"],
-  //     "latlng",
-  //     "time_created",
-  //   ],
-  //   order: [
-  //     ["createdAt", "DESC"],
-  //     [Sequelize.literal("count"), "DESC"],
-  //   ],
-  //   raw: true,
-  // });
-  // const twentyFourHrInMs = 24 * 60 * 60 * 1000;
-  // const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
-  // const result = await Promise.all(
-  //   val.map((x) => {
-  //     return Location.findOne({
-  //       where: {
-  //         phone: x.phone,
-  //         createdAt: {
-  // [Op.gt]: Sequelize.literal("NOW() - INTERVAL '24 HOURS'"),
-  // [Op.gt]: new Date(Date.now() - 24 * 60 * 60 * 1000),
-  //         },
-  //       },
-  //       order: [["createdAt", "DESC"]],
-  //     });
-  //   })
-  // );
-
-  // select MAX(createdAt),phone from location where createdAt <  DATE_SUB(column, INTERVAL 24 HOUR) group by phone
-  // const lastRecord = await Location.findOne({
-  //   where: { phone: req.body.phone },
-  //   order: [["createdAt", "DESC"]],
-  // });
-
-  // const lastVisitedRecords = await Location.findOne({
-  //   where: { phone: req.body.phone, createdAt: { [Op.gt]: 24 } },
-  // });
-  // if (dateRmain > 24) {
-  // }
-  //  where:{productId:pid},
-  //   attributes:[[sequelize.fn('max', sequelize.col('rating')),'max']]
-  // const twentyFourHrInMs = 24 * 60 * 60 * 1000;
-  // const twentyFourHoursAgo = Date.now() - twentyFourHrInMs;
-  // const allUser = await Location.findAll();
-  // const post = await Post.find({ userId: currentUser._id });
-  // where: { [Op.and]: [{ createdAt: 5 }, { createdAt: 6 }] },
-  // const result = await Promise.all(
-  //   allUser.map((x) => {
-  //     const ts = Location.findAll({
-  //       where: { id: x.id },
-  //       attributes: [[Sequelize.fn("max", sequelize.col("createdAt")), "max"]],
-
-  //     });
-
-  //     return ts;
-  //   })
-  // );
 
   return res.send(result);
 };
